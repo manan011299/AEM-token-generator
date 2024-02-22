@@ -1,0 +1,19 @@
+{
+  "name": "adobenodescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/aemcs-api-client-lib": "git+https://github.com/adobe/aemcs-api-client-lib.git#main",
+    "form-data": "^3.0.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1",
+    "yargs": "^16.2.0"
+  }
+}
